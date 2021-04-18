@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+    <title>JS innerHTML</title>
+<script>
+    function z1()
+    {
+        document.getElementById("z1").innerHTML="Po prostu podszedł, bo łańcuch nie był do niczego przymocowany";
+    }
+    function z2()
+    {
+        document.getElementById("z1").innerHTML="Tu znajdziesz odpowiedź";
+    }   
+</script>
+</head>
+<body>
+<h2>JS posługiwanie się innerHTML</h2> 
+<h3>Zagadki logiczne:</h3>
+   <p>
+    Koń jest na łańcuchu o długości 20 metrów i udało mu się sięgnąć jabłko, które było w odległości 30 metrów od niego. Jak to zrobił?
+    </p>
+    <input type="button" value="zobacz odpowiedź" onclick="z1()">
+</br></br>
+<div id="z1">Tu znajdziesz odpowiedź</div>
+</br>
+</br>
+<input type="button" value="ukryj odpowiedź" onclick="z2()">
+</body>
